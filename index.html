@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Your Carbon Footprint Calculator</h1>
+
+        <div class="input-group">
+            <label for="electricity">Electricity Usage (kWh/month):</label>
+            <input type="number" id="electricity" value="0">
+        </div>
+
+        <div class="input-group">
+            <label for="carMiles">Car Driving (miles/year):</label>
+            <input type="number" id="carMiles" value="0">
+        </div>
+
+        <div class="input-group">
+            <label for="flights">Flights (hours/year):</label>
+            <input type="number" id="flights" value="0">
+        </div>
+
+        <div class="input-group">
+            <label for="meatConsumption">Meat Consumption (meals/week):</label>
+            <input type="number" id="meatConsumption" value="0">
+        </div>
+
+        <div class="input-group">
+            <label for="waste">Waste Generated (kg/week):</label>
+            <input type="number" id="waste" value="0">
+        </div>
+
+        <div class="result-display">
+            <h2>Your Estimated Annual Carbon Footprint:</h2>
+            <p id="result">0 kg CO2e</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
